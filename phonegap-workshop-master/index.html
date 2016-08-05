@@ -1,10 +1,16 @@
 <html>
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<meta charset="UTF-8">
+</head>
 <body>
 
 <script id="home-tpl" type="text/x-handlebars-template">
-    <div class='header'><h1>Home</h1></div>
-    <div class='search-bar'><input class='search-key' type="text"/></div>
-    <ul class='employee-list'></ul>
+	<div style="text-align: center;">
+	    <div class='header'><h1>Home</h1></div>
+	    <div class='search-bar'><input class='search-key' type="text"/></div>
+	    <ul class='employee-list'></ul>
+	</div>
 </script>
 <script id="employee-li-tpl" type="text/x-handlebars-template">
     {{#.}}

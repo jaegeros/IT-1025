@@ -115,6 +115,7 @@ li {
     display: -moz-box;
     display: box;
     width: 100%;
+    list-style-type: none;
 }
 
 li>a {
