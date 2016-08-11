@@ -7,7 +7,7 @@ var app = {
 	            "<input class='search-key'/>" +
 	            "<ul class='employee-list'></ul>" +
 	            "</div>"
-	    $('body').html(html);
+	    $('body').html(this.homeTpl());
 	    $('.search-key').on('keyup', $.proxy(this.findByName, this));
 	},
 
