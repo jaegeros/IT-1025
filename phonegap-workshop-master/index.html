@@ -3,6 +3,7 @@
 	<meta charset="UTF-8">
 	<title>Try-out App</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/styles.css" rel="stylesheets">
 </head>
 <body>
 <script id="home-tpl" type="text/xhandlebars-template">
@@ -13,11 +14,12 @@
 
 <script id="employee-li-tpl" type="text/x-handlebars-template">
 	{{#.}}
-	<li><a href="#employees/{{this.id}}">{{thisfirstName}} {{this.lastName}}<br/>{{thid.title}}</a></li>
+	<li><a href="#employees/{{this.id}}">{{thisfirstName}} {{this.lastName}}<br/>{{this.title}}</a></li>
 	{{/.}}
 </script>
 
 <script scr="phonegap.js"></script>
+<script src="css/source-sans-pro.js"></script>
 <script src="lib/handlebars.js"></script>
 <script src="lib/jquery-1.8.2.min.js"></script>
 <script src="js/storage/memory-store.js"></script>
